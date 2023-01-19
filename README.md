@@ -3,10 +3,11 @@ This is a repository for assignment 3 of the Software Quality Engineering course
 
 ## Assignment Description
 In this assignment, we tested an open-source software called Moodle. 
+
 Moodle is a free and open-source learning management system (LMS) that is widely used by educators and trainers to create and manage online learning environments. It provides a range of tools and features that enable users to create and organize content, deliver assessments and quizzes, facilitate communication and collaboration, and track student progress.
 
 ## Installation
-$$*TODO* Write instructions on how to install the software and prepare the testing environment$$
+We install the Moodle package sandbox [a link to download](https://download.moodle.org/releases/latest/)
 
 ## What we tested
 We tested the forum module that allows for creating a disscusion and upload and attach a file. We chose to test the following user stories:
