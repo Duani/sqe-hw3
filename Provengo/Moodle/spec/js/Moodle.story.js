@@ -17,8 +17,6 @@ story('Teacher upload file to forum', function () {
   s.goToCourse()
   s.enterForum()
   s.addDiscussionTopic({header:"Just For Testing", body:"I am just testing"});
- 
-  // s.logoutAndCheck()
 })
 
 
@@ -34,7 +32,7 @@ story('Admin changing the File uploading size', function () {
   s.goToCourse()
   s.enterForumAdmin()
   s.changeFileSizeAdmin()
-  // s.logoutAndCheck()
+
 })
 
 
