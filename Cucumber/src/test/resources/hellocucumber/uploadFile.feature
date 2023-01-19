@@ -1,4 +1,4 @@
-Feature: A set of scenarios for testing the "example" module
+Feature: A set of scenarios for testing the "upload file" module
 
  Scenario: Successful users logout
     Given successful 'Teacher' Login
@@ -18,10 +18,6 @@ Feature: A set of scenarios for testing the "example" module
     And saved the changes
     Then getting error for can not upload the file
     And  get the course page 
-
-    
-   
-    
 
 
   Scenario: Teacher uploads a file in the News forum with size of 256 MB
